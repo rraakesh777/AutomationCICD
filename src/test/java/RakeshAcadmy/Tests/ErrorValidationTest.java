@@ -21,7 +21,7 @@ public class ErrorValidationTest extends BaseTest {
 	public void LoginErrorValidation() throws IOException, InterruptedException {
 	String prodcutName = "ZARA COAT 3";
 	ProductCatalougue productCatalouge= landingPage.loginApplication("rraakesh777@gmail.com","Java@43221");	
-		Assert.assertEquals("Incorrect email  password.", landingPage.getErrorMessage());
+	Assert.assertEquals(landingPage.getErrorMessage(), "Incorrect email or password.");
 	
 	}
 	@Test
