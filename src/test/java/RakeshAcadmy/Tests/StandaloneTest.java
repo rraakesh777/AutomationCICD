@@ -20,6 +20,8 @@ public class StandaloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Step added for check code deploye on server
+		
 	String prodcutName = "ZARA COAT 3";
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
